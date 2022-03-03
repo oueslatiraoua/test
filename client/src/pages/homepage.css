@@ -1,0 +1,566 @@
+.main {
+  width: 100%;
+  background: url(./Images/1.jfif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* background ourServices
+*/
+.mainCard {
+  background-image: linear-gradient(
+    #26291b,
+    #26291b,
+    #26291b,
+    #26291b,
+    #241f15
+  );
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* Navbar css********************************************************/
+.navbar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.navbarOurServices {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background-image: linear-gradient(
+    to right top,
+    #26291b,
+    #26291b,
+    #26291b,
+    #241f15,
+    #1d1611,
+    #130d0c
+  );
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.icon {
+  display: flex;
+}
+.logoimage {
+  margin-top: 8px;
+  margin-left: 80px;
+  margin-right: 15px;
+}
+.logo {
+  display: flex;
+  align-items: left;
+  color: IndianRed;
+
+  font-family: "Dancing Script", cursive;
+
+  font-size: 55px;
+  margin-right: 30px;
+}
+.menu {
+  width: 400px;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+  padding-top: 5px;
+}
+ul {
+  display: flex;
+  white-space: nowrap;
+}
+ul li {
+  list-style: none;
+  margin-left: 55px;
+  margin-top: 25px;
+  font-size: 18px;
+}
+ul li a {
+  text-decoration: none;
+  color: BurlyWood;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+  color: indianred;
+}
+ul li p {
+  text-decoration: none;
+  color: BurlyWood;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li p:hover {
+  color: indianred;
+}
+.search {
+  display: flex;
+  justify-content: right;
+  padding-top: 15px;
+
+  margin-left: 50px;
+}
+
+.src {
+  font-family: "Dancing Script", cursive;
+
+  font-family: "Lobster", cursive;
+
+  font-family: "Playfair Display", serif;
+  width: 300px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid indianred;
+  color: white;
+  border-right: none;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid indianred;
+  background: indianred;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+
+  font-family: "Lobster", cursive;
+
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 20px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.btn:focus {
+  outline: none;
+}
+.src:focus {
+  outline: none;
+}
+/* end Navbar css********************************************************/
+.form {
+  width: 250 px;
+  height: 380px;
+  background: linear-gradient(to top, black 50%, black 50%);
+
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+form h2 {
+  width: 220px;
+  font-family: sans-serf;
+  text-align: center;
+  color: IndianRed;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+p {
+  color: white;
+}
+.form input {
+  width: 240 px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: sans serf;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-title {
+  width: 100%;
+}
+
+.card-title h3 {
+  color: IndianRed;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 500;
+  margin-top: 70px;
+}
+
+.card-title h3 > span {
+  color: #848484;
+}
+
+.card-body {
+  background-color: black;
+  margin-top: 10px;
+  opacity: 0.8;
+  padding: 10px 0px;
+  border-radius: 30px;
+  width: 100%;
+  height: 600px;
+}
+
+.card-body-top {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #262626;
+}
+
+.card-body-top > .btn {
+  border: 0;
+  background-color: transparent;
+  color: #848484;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  width: 180px;
+  padding: 25px 0;
+}
+
+#login {
+  color: IndianRed;
+}
+#login:hover {
+  color: burlywood;
+}
+#register:hover {
+  color: burlywood;
+}
+#register {
+  color: IndianRed;
+}
+
+#pointer-btn {
+  bottom: -1px;
+  left: 30px;
+  width: 80px;
+  height: 2px;
+  background-color: IndianRed;
+  transition: 0.5s all ease;
+}
+
+.card-body-login {
+  width: 100%;
+  padding: 15px 20px;
+}
+
+.card-body-login > #login-form {
+  top: 30px;
+  left: 25px;
+  padding-right: 40px;
+
+  text-align: center;
+}
+
+.card-body-login > #register-form {
+  top: 20px;
+  left: 450px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.input-form {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid IndianRed;
+  width: 350px;
+  padding: 15px 0px;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+  outline: none;
+}
+.input-formName {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid IndianRed;
+  width: 160px;
+  padding: 15px 0px;
+  display: flex;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.input-formContact {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 1px solid IndianRed;
+  width: 160px;
+  padding: 15px 0px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  outline: none;
+  display: flex;
+}
+.submit-form {
+  background-color: IndianRed;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border-radius: 50px;
+}
+#action_title {
+  margin: 10px;
+}
+
+.banner-text {
+  position: absolute;
+  width: 650px;
+  height: 230px;
+  margin: 10% 5%;
+  text-align: left;
+}
+.banner-text h1 {
+  text-align: left;
+  color: BlanchedAlmond;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.banner-text p {
+  font-family: "Arial";
+  font-size: 22px;
+  line-height: 1.5;
+  color: BurlyWood;
+}
+.banner-text h1 span {
+  color: indianred;
+}
+.banner-text a {
+  border: 1px solid BlanchedAlmond;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: BlanchedAlmond;
+}
+.banner-text a:hover {
+  background: #fff;
+  color: #333;
+}
+/*resposive*/
+
+@media (max-width: 768px) {
+  .banner-text {
+    width: 80%;
+    height: auto;
+    margin: 60% 10%;
+  }
+  .banner-text h1 {
+    font-size: 25px;
+  }
+  .banner-text p {
+    font-size: 20px;
+  }
+}
+
+/* footer********************************************************/
+.endOfPage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0 0.5rem 0;
+  opacity: 0.5;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+@media (max-width: 768px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  ul li {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  .navbarOurServices {
+    width: 0%;
+    height: 0px;
+    display: flex;
+  }
+
+  .logo {
+    display: flex;
+
+    color: IndianRed;
+
+    font-family: "Dancing Script", cursive;
+
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .src {
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid indianred;
+    color: white;
+
+    font-size: 15px;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .btn {
+    width: 70px;
+    height: 40px;
+    border: 1px solid indianred;
+    background: indianred;
+    font-family: "Dancing Script", cursive;
+    cursor: pointer;
+
+    font-family: "Lobster", cursive;
+
+    font-family: "Playfair Display", serif;
+    color: black;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .logoimage {
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 15px;
+  }
+  .main {
+    width: 100%;
+    background: url(./Images/1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+  }
+
+  .card-body {
+    background-color: black;
+    margin-top: 350px;
+    opacity: 0.9;
+    padding: 10px 0px;
+    border-radius: 30px;
+    width: 100%;
+    height: 600px;
+  }
+}
+.navbarAboutUs {
+  background-color: #26291b;
+  width: 100%;
+
+  position: fixed;
+  height: 70px;
+}
+.navbarAboutUs .logo a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-left: 225px;
+  letter-spacing: 3px;
+  margin-top: 18px;
+  position: fixed;
+  z-index: 2;
+}

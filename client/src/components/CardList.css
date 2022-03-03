@@ -1,0 +1,69 @@
+.container {
+  padding-top: 30px;
+
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  width: 100%;
+  flex-direction: row;
+
+  padding: 6%;
+}
+.flex {
+  width: 30%;
+  margin: 15px;
+}
+.flex > article {
+  background: white;
+  border: none;
+  box-shadow: 6px 6px 6px 6px black;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.flex > article img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.test {
+  color: black;
+}
+.text h3 {
+  text-transform: uppercase;
+}
+
+.text button {
+  background-color: IndianRed;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.delete :hover {
+  color: "red";
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .flex {
+    width: 100%;
+  }
+}
+@media (max-width: 100px) {
+  .container {
+    width: 50%;
+  }
+  .flex {
+    width: 50%;
+  }
+}
